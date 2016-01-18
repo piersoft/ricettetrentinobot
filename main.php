@@ -43,7 +43,7 @@ function start($telegram,$update)
 		exit;
 	}
 			elseif ($text == "Ricerca") {
-				$reply = "Scrivi la parola da cercare anteponendo il carattere - , ad esempio: -LibreItalia";
+				$reply = "Scrivi la parola da cercare anteponendo il carattere - , ad esempio: -Cotechino";
 				$content = array('chat_id' => $chat_id, 'text' => $reply,'disable_web_page_preview'=>true);
 				$telegram->sendMessage($content);
 		//		$log=$today. ";new chat started;" .$chat_id. "\n";
